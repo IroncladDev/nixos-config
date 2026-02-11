@@ -23,5 +23,11 @@
         };
       };
     };
+
+    udev = {
+      extraRules = ''
+        KERNEL=="uinput", GROUP="uinput", MODE="0660", OPTIONS+="static_node=uinput"
+      '';
+    };
   };
 }

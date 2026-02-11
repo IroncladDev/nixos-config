@@ -17,5 +17,6 @@
     magic-wormhole
     tuigreet
     gh
+    kanata-with-cmd
   ];
 }
